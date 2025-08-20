@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+Select p.email AS Email
+From Person p
+Group By email
+Having count(p.email) > 1;
